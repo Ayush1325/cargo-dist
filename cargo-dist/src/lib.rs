@@ -754,6 +754,8 @@ pub fn known_desktop_targets() -> Vec<String> {
         axoproject::platforms::TARGET_X64_MAC.to_owned(),
         // Apple is really easy to cross from Apple
         axoproject::platforms::TARGET_ARM64_MAC.to_owned(),
+        // Windows is relatively easy to cross from Linux
+        axoproject::platforms::TARGET_X64_MINGW.to_owned(),
         // other cross-compiles not yet supported
         // axoproject::platforms::TARGET_ARM64_LINUX_GNU.to_owned(),
         // axoproject::platforms::TARGET_ARM64_WINDOWS.to_owned(),
